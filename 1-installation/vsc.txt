@@ -1,0 +1,37 @@
+ES7+ React/Redux/GraphQL/React-Native snippets :
+    rcc: Génère un composant React de classe avec un constructeur.
+    rce: Génère un composant React de classe avec une exportation.
+    rfc: Génère un composant React fonctionnel.
+    rfce: Génère un composant React fonctionnel avec une exportation.
+    useState: Génère le hook useState pour la gestion de l'état dans les composants fonctionnels.
+    useEffect: Génère le hook useEffect.
+
+
+Fichiers de service worker : Si vous n'avez pas l'intention d'utiliser les fonctionnalités de Progressive Web App (PWA) :
+
+src/serviceWorker.js
+Fichiers de test : Si vous n'avez pas l'intention d'écrire des tests tout de suite :
+
+src/App.test.js
+Fichiers de logo : Si vous n'utilisez pas le logo React par défaut :
+
+src/logo.svg
+Fichiers CSS : Si vous prévoyez d'utiliser une autre approche pour les styles (comme styled-components) :
+
+src/App.css
+src/index.css
+Fichier setupTests.js : Si vous n'avez pas l'intention d'utiliser la bibliothèque de test Jest :
+
+src/setupTests.js
+Manifeste et icônes : Si vous n'utilisez pas les fonctionnalités PWA :
+
+public/manifest.json
+Toutes les icônes dans public/ qui sont liées au manifeste (comme logo192.png, logo512.png).
+README.md : Vous pouvez le supprimer ou le remplacer par vos propres notes et documentation.
+
+npm install react-bootstrap bootstrap
+index.js
+    import 'bootstrap/dist/css/bootstrap.min.css';
+https://react-bootstrap.github.io/
+
+
